@@ -1,0 +1,16 @@
+#footer-row{
+    background-color: var(--main-bg);
+    padding-top: 1%;
+    
+}
+
+#facebook-link{
+    color: #626262;
+    padding-left: 1%;
+    text-decoration: none;
+    
+}
+
+#facebook-link:hover{
+    color: #909090;
+}

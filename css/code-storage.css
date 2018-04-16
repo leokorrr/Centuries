@@ -1,0 +1,18 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+}
+#paragraph{
+    width: 60%;
+}
+
+#img{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}

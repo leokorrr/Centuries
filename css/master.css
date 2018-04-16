@@ -1,0 +1,309 @@
+:root{
+    --main: rgb(48, 167, 158);
+    --main-bg: #303030;
+}
+body{
+    margin: 0 auto; 
+}
+@font-face{
+    font-family: mainFont;
+    src: url(RealWorld.ttf);
+}
+@font-face{
+    font-family: quoteFont;
+    src: url(&Matchmaker.ttf);
+}
+@font-face{
+    font-family: textFont;
+    src: url(AftaSerifThin-Regular.otf);
+}
+
+#content-mobile{
+    display: none;
+}
+#video-box{
+    height: 95vh;
+    overflow: hidden;
+    text-align: center;
+}
+#castle-video{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#start-button-container{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    z-index: 9999;
+    
+    
+}
+
+#start-button{
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--main-bg);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 4px var(--main-bg);
+    transition: 0.3s;
+}
+
+#start-button:hover{
+    background-color: var(--main-bg);
+    
+}
+#start-button:hover>i{
+    border: solid rgba(48, 167, 158, 0.85);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+}
+i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    font-size: ;
+}
+
+#toBegin{
+    transition: 0.5s;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#welcome-text-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 167, 158, 0.85);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:;
+    
+}
+
+#welcome-text-header{
+    font-family: mainFont;
+    font-size: 48px;
+}
+
+#welcome-text-quote{
+    font-family: quoteFont;
+    font-size: px
+}
+
+.left-side-card .right-side-card{
+    height: 100vh;
+}
+
+.right-side-card{
+    height: 100vh;
+}
+
+.description-box{
+    height: 100vh;
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.castle-name{
+    color: var(--main);
+    font-family: mainFont;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.castle-quote{
+    font-style: italic;
+    font-family: quoteFont;
+    letter-spacing: 1px;
+    color: #adaaaa;
+}
+
+.short-desc{
+    color: white;
+    padding-bottom: 10px;
+    font-family: textFont;
+    font-size: 15px;
+    letter-spacing: px;
+}
+
+/*castles*/
+#hluboka{
+    background: url(../img/hluboka.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+/*    background-size: cover;*/
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#lednice{
+    background: url(../img/lednice1.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#pruhonice{
+    background: url(../img/pruhonice.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+/*    background-size: cover;*/
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#prague{
+    background: url(../img/prague.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#krumlov{
+    background: url(../img/krumluv.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+/*    background-size: cover;*/
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.visit-button{
+    background-color: transparent;
+    color: var(--main);
+    border: 1px solid var(--main);
+    font-size: 32px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: mainFont;
+    width: 100px;
+    
+}
+
+.visit-link{
+    color: var(--main);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.visit-button:hover, .visit-link:visited:hover{
+    background-color: var(--main);
+    color:white;
+    transition: 0.3s;
+}
+
+#interesting-fact{
+    
+}
+#fact-header{
+    font-family: mainFont;
+    color: var(--main);
+    text-align: center
+}
+
+#fact{
+    text-align: center;
+    font-family: textFont;
+    color: #adaaaa;
+    font-size: 16px;
+    margin: 15px;
+    text-shadow: 0px 0px 1px #a3a3a3;
+}
+
+
+@media (max-width: 768px){
+    #video-box{
+    height: 95vh;
+    overflow: hidden;
+    background: url(../img/background.jpg) center center no-repeat;
+}
+    video{
+        display: none;
+    }
+    
+    #content{
+        display: none;
+    }
+    #video{
+        height: 80vh;
+    }
+    #welcome-text-box{
+        height: 80%;
+    }
+    #content-mobile{
+        display: block;
+        
+    }
+    .castle-resp{
+        height: ;
+    }
+    .castle-image-resp{
+        background-attachment: fixed;
+    }
+    .castle-desc-box-resp{
+        background-color: var(--main-bg);
+        padding: 5%;
+        padding-bottom: 20%;
+    }
+    .castle-title-resp{
+        color: var(--main);
+        font-family: mainFont;
+        font-size: 250%;
+    }
+    .castle-quote-resp{
+        color: #adaaaa;
+        font-family: quoteFont;
+        font-size: 140%;
+    }
+    .castle-desc-resp{
+        color: white;
+        font-family: textFont;
+    }
+    .visit-button{
+        margin-top: 5%;
+        float: right;
+        
+    }
+    #start-button{
+        display: none;
+    }
+}
