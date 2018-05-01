@@ -250,7 +250,7 @@ i {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 996px){
     #video-box{
     height: 95vh;
     overflow: hidden;
