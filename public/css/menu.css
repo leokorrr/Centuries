@@ -1,0 +1,59 @@
+:root{
+    --main: rgb(52, 190, 179);
+    --main-active: rgb(60, 216, 203);
+    --main-bg: #303030;
+}
+
+@font-face{
+    font-family: mainFont;
+    src: url(RealWorld.ttf);
+}
+
+.navbar{
+    background-color: var(--main-bg);
+    color: var(--main);
+    font-family: mainFont;
+    font-size: 200%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: var(--main);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: var(--main-active);
+}
+.navbar-default .navbar-brand {
+    color: var(--main);
+    font-size: 120%;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: var(--main-active);
+}
+
+
+
+.dropdown-menu>li>a{
+    color: var(--main);
+    font-size: 150%;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: var(--main-active);
+    background-color: var(--main-bg);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: var(--main);
+   
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: var(--main-active);
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: var(--main);
+}
+}

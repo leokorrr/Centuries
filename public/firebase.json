@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Centuries",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
